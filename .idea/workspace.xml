@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Inserccion Ficheros Proyecto (+ Clase Trabajador)." />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CInserccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Modelo/Trabajador.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -20,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MatiasRojasLemus"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MatiasRojasLemus&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MatiasRojasLemus/gestorEmpleadosMatiasRojas.git",
-    "accountId": "32abe8dc-98f4-4ad8-9394-cbfd072be861"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MatiasRojasLemus/gestorEmpleadosMatiasRojas.git&quot;,
+    &quot;accountId&quot;: &quot;32abe8dc-98f4-4ad8-9394-cbfd072be861&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,10 +48,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fSbQMsyAYFNrniVFc9a6aUCUhN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,6 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/34654/PanaderiaDAM1B",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +73,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.gestorempleadosmatiasrojas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713797408615</updated>
       <workItem from="1713797409629" duration="846000" />
+      <workItem from="1714330606483" duration="3669000" />
+      <workItem from="1714337804173" duration="4174000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -97,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inserccion Ficheros Proyecto (+ Clase Trabajador)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserccion Ficheros Proyecto (+ Clase Trabajador)." />
+    <MESSAGE value="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java." />
   </component>
 </project>

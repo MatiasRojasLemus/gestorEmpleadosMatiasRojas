@@ -1,4 +1,4 @@
-package org.example.gestorempleadosmatiasrojas;
+package org.example.gestorempleadosmatiasrojas.Modelo;
 
 import java.time.LocalDate;
 
