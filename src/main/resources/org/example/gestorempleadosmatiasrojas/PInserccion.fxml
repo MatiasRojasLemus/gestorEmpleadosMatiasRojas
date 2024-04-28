@@ -15,30 +15,44 @@
             <Insets bottom="15.0" />
          </VBox.margin>
       </Text>
+
       <TabPane id="TP" fx:id="TP" prefHeight="35.0" prefWidth="562.0" tabClosingPolicy="UNAVAILABLE">
          <Tab id="tabNE" fx:id="tabNE" text="Nuevo Empleado"/>
          <Tab id="tabCon" fx:id="tabCon" text="Consultar"/>
       </TabPane>
+
       <Label id="lblNom" fx:id="lblNom" prefHeight="18.0" prefWidth="156.0" text="Nombre" />
+
       <TextField id="txtFldNom" fx:id="txtFldNom" prefHeight="25.0" prefWidth="150.0">
          <VBox.margin>
             <Insets bottom="5.0" />
-         </VBox.margin></TextField>
+         </VBox.margin>
+      </TextField>
+
       <Label id="lblPuesto" fx:id="lblPuesto" text="Puesto" />
+
       <ComboBox id="CBPuesto" fx:id="CBPuesto" prefWidth="150.0" visibleRowCount="6">
          <VBox.margin>
             <Insets bottom="5.0" />
-         </VBox.margin></ComboBox>
+         </VBox.margin>
+      </ComboBox>
+
       <Label id="lblSalario" fx:id="lblSalario" text="Salario" />
+
       <TextField id="txtFldSalario" fx:id="txtFldSalario" prefWidth="150.0">
          <VBox.margin>
             <Insets bottom="20.0" />
-         </VBox.margin></TextField>
+         </VBox.margin>
+      </TextField>
+
       <Button id="btnInsert" fx:id="btnInsert" mnemonicParsing="false" text="Insertar">
          <VBox.margin>
             <Insets bottom="15.0" />
-         </VBox.margin></Button>
+         </VBox.margin>
+      </Button>
+
    </children>
+
    <padding>
       <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
    </padding>
