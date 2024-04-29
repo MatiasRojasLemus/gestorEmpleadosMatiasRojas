@@ -5,9 +5,15 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
 public class CConsulta {
+    @FXML
+    private VBox vboxCon;
+    @FXML
+    private HBox hboxCon;
     @FXML
     private Text txtTit2;
     @FXML

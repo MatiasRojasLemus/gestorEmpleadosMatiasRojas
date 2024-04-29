@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fillWidth="false" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CEdicion">
+   <children>
+      <Text id="txtIdTrab" fx:id="txtIdTrab" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" />
+      <Label fx:id="lblNomEd" text="NOMBRE" />
+      <TextField id="txtfldNomEd" fx:id="txtfldNomEd" prefHeight="26.0" prefWidth="357.0" text="Nombre actual del trabajador" />
+      <Label id="lblPuestoEd" fx:id="lblPuestoEd" text="PUESTO" />
+      <TextField fx:id="txtfldPuestoEd" prefHeight="26.0" prefWidth="357.0" text="Puesto actual del trabajador" />
+      <Label id="lblSalarEd" fx:id="lblSalarEd" text="SALARIO" />
+      <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="358.0" text="Salario actual del trabajador" />
+   </children>
+</VBox>

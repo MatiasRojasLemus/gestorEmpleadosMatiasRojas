@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CConsulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" afterDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Modificaciones en PInserccion y CInserccion. Creacion y estructuración de PConsulta y creación de CConsulta.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CEdicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PEdicion.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CInserccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CInserccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1714351943758" duration="65000" />
       <workItem from="1714352023660" duration="49000" />
       <workItem from="1714352090924" duration="111000" />
-      <workItem from="1714352212280" duration="1641000" />
+      <workItem from="1714352212280" duration="3062000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714347077955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modificaciones en PInserccion y CInserccion. Creacion y estructuración de PConsulta y creación de CConsulta.">
+      <option name="closed" value="true" />
+      <created>1714353971951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714353971951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +148,7 @@
     <MESSAGE value="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java." />
     <MESSAGE value="Insercción fichero trabajadores.txt + Organización de Clases y Paquetes." />
     <MESSAGE value="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes." />
+    <MESSAGE value="Modificaciones en PInserccion y CInserccion. Creacion y estructuración de PConsulta y creación de CConsulta." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones en PInserccion y CInserccion. Creacion y estructuración de PConsulta y creación de CConsulta." />
   </component>
 </project>
