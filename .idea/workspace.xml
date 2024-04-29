@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Modelo/trabajadores.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CInserccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/CInserccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Controlador/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/34654/PanaderiaDAM1B",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/34654/ProyectoInvasoresDanielSalasMatiasRojas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.gestorempleadosmatiasrojas" />
@@ -97,7 +95,15 @@
       <updated>1713797408615</updated>
       <workItem from="1713797409629" duration="846000" />
       <workItem from="1714330606483" duration="3669000" />
-      <workItem from="1714337804173" duration="5254000" />
+      <workItem from="1714337804173" duration="6988000" />
+      <workItem from="1714348377923" duration="286000" />
+      <workItem from="1714348677593" duration="86000" />
+      <workItem from="1714348772226" duration="779000" />
+      <workItem from="1714350244705" duration="1683000" />
+      <workItem from="1714351943758" duration="65000" />
+      <workItem from="1714352023660" duration="49000" />
+      <workItem from="1714352090924" duration="111000" />
+      <workItem from="1714352212280" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -115,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714342033241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes.">
+      <option name="closed" value="true" />
+      <created>1714347077955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714347077955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inserccion Ficheros Proyecto (+ Clase Trabajador)." />
     <MESSAGE value="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion y diseño nuevo fichero PInserccion.fxml. Creacion de respectivo fichero &quot;Controlador&quot; CInserccion.java." />
+    <MESSAGE value="Insercción fichero trabajadores.txt + Organización de Clases y Paquetes." />
+    <MESSAGE value="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Insercción fichero trabajadores.txt. + eliminación de ficheros irrelevantes." />
   </component>
 </project>

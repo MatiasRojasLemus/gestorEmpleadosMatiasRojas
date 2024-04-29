@@ -16,9 +16,9 @@
          </VBox.margin>
       </Text>
 
-      <TabPane id="TP" fx:id="TP" prefHeight="35.0" prefWidth="562.0" tabClosingPolicy="UNAVAILABLE">
-         <Tab id="tabNE" fx:id="tabNE" text="Nuevo Empleado"/>
-         <Tab id="tabCon" fx:id="tabCon" text="Consultar"/>
+      <TabPane id="TabP" fx:id="TabP" prefHeight="35.0" prefWidth="562.0" tabClosingPolicy="UNAVAILABLE">
+         <Tab id="tabNE" fx:id="tabNE" text="Nuevo Empleado" />
+         <Tab id="tabCon" fx:id="tabCon" text="Consultar" />
       </TabPane>
 
       <Label id="lblNom" fx:id="lblNom" prefHeight="18.0" prefWidth="156.0" text="Nombre" />

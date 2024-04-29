@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CConsulta">
+   <children>
+      <Text id="txtTit2" fx:id="txtTit2" fill="#666666" layoutX="159.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de empleados" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <TabPane id="TabP2" fx:id="TabP2" layoutX="11.0" layoutY="56.0" prefHeight="58.0" prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab id="tabNE2" fx:id="tabNE2" text="Nuevo Empleado" />
+          <Tab id="TabCon2" fx:id="TabCon2" text="Consultar" />
+        </tabs>
+      </TabPane>
+      <ListView id="listV" fx:id="listV" editable="true" fixedCellSize="0.0" layoutX="11.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button id="btnRefresc" fx:id="btnRefresc" layoutX="79.0" layoutY="306.0" mnemonicParsing="false" text="Refrescar" />
+      <Button id="btnEdit" fx:id="btnEdit" layoutX="250.0" layoutY="259.0" mnemonicParsing="false" text="Editar" />
+      <Button id="btnElim" fx:id="btnElim" layoutX="375.0" layoutY="259.0" mnemonicParsing="false" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
+      <Text id="txtIdT" fx:id="txtIdT" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" wrappingWidth="110.68359375" x="250.0" y="125.0" />
+      <Text id="txtNT" fx:id="txtNT" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Trabajador" x="250.0" y="150.0" />
+      <Text id="txtPuesto" fx:id="txtPuesto" strokeType="OUTSIDE" strokeWidth="0.0" text="Puesto" x="250.0" y="175.0" />
+      <Text id="txtSalar" fx:id="txtSalar" strokeType="OUTSIDE" strokeWidth="0.0" text="Salario" x="250.0" y="200.0" />
+      <Text id="txtFA" fx:id="txtFA" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de Alta" x="250.0" y="225.0" />
+   </children>
+</AnchorPane>
