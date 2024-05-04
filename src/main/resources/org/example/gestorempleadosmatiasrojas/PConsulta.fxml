@@ -7,46 +7,46 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CConsulta">
    <children>
-      <Text id="txtTit2" fx:id="txtTit2" fill="#666666" layoutX="159.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de empleados" textAlignment="CENTER">
+      <Text fill="#666666" layoutX="159.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de empleados" textAlignment="CENTER">
          <font>
             <Font size="30.0" />
          </font></Text>
-      <TabPane id="TabP2" fx:id="TabP2" layoutX="11.0" layoutY="56.0" prefHeight="58.0" prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="TabP2" layoutX="11.0" layoutY="56.0" prefHeight="40.0" prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
-          <Tab id="tabNE2" fx:id="tabNE2" text="Nuevo Empleado" />
-          <Tab id="TabCon2" fx:id="TabCon2" text="Consultar" />
+          <Tab fx:id="tabNE2" text="Nuevo Empleado" />
+          <Tab id="ConBold" fx:id="TabCon2" style="-fx-font-weight: bold;" text="Consultar" />
         </tabs>
       </TabPane>
-      <ListView id="listV" fx:id="listV" editable="true" fixedCellSize="0.0" layoutX="11.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button id="btnRefresc" fx:id="btnRefresc" layoutX="79.0" layoutY="306.0" mnemonicParsing="false" text="Refrescar" />
-      <HBox id="hboxCon" fx:id="hboxCon" layoutX="254.0" layoutY="256.0">
+      <ListView fx:id="listV" editable="true" fixedCellSize="0.0" layoutX="11.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnRefresc" layoutX="79.0" layoutY="306.0" mnemonicParsing="false" text="Refrescar" />
+      <HBox fx:id="hboxCon" layoutX="254.0" layoutY="256.0">
          <children>
-            <Button id="btnEdit" fx:id="btnEdit" mnemonicParsing="false" text="Editar">
+            <Button fx:id="btnEdit" mnemonicParsing="false" text="Editar">
                <HBox.margin>
                   <Insets right="75.0" />
                </HBox.margin></Button>
-            <Button id="btnElim" fx:id="btnElim" layoutX="200.0" mnemonicParsing="false" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
+            <Button fx:id="btnElim" layoutX="200.0" mnemonicParsing="false" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
          </children>
       </HBox>
-      <VBox id="vboxCon" fx:id="vboxCon" layoutX="254.0" layoutY="85.0" prefHeight="170.0" prefWidth="111.0">
+      <VBox fx:id="vboxCon" layoutX="254.0" layoutY="85.0" prefHeight="170.0" prefWidth="111.0">
          <children>
-            <Text id="txtIdT" fx:id="txtIdT" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" wrappingWidth="110.68359375" x="250.0" y="125.0">
+            <Text fx:id="txtIdT" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" wrappingWidth="110.68359375" x="250.0" y="125.0">
                <VBox.margin>
                   <Insets bottom="15.0" top="15.0" />
                </VBox.margin></Text>
-            <Text id="txtNT" fx:id="txtNT" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Trabajador" x="250.0" y="150.0">
+            <Text fx:id="txtNT" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Trabajador" x="250.0" y="150.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin></Text>
-            <Text id="txtPuesto" fx:id="txtPuesto" strokeType="OUTSIDE" strokeWidth="0.0" text="Puesto" x="250.0" y="175.0">
+            <Text fx:id="txtPuesto" strokeType="OUTSIDE" strokeWidth="0.0" text="Puesto" x="250.0" y="175.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin></Text>
-            <Text id="txtSalar" fx:id="txtSalar" strokeType="OUTSIDE" strokeWidth="0.0" text="Salario" x="250.0" y="200.0">
+            <Text fx:id="txtSalar" strokeType="OUTSIDE" strokeWidth="0.0" text="Salario" x="250.0" y="200.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin></Text>
-            <Text id="txtFA" fx:id="txtFA" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de Alta" x="250.0" y="225.0" />
+            <Text fx:id="txtFA" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de Alta" x="250.0" y="225.0" />
          </children>
       </VBox>
    </children>

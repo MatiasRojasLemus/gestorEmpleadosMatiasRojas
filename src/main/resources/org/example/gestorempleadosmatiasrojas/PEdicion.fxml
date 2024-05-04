@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox fillWidth="false" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CEdicion">
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CEdicion">
    <children>
-      <Text id="txtIdTrab" fx:id="txtIdTrab" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" />
-      <Label fx:id="lblNomEd" text="NOMBRE" />
-      <TextField id="txtfldNomEd" fx:id="txtfldNomEd" prefHeight="26.0" prefWidth="357.0" text="Nombre actual del trabajador" />
-      <Label id="lblPuestoEd" fx:id="lblPuestoEd" text="PUESTO" />
-      <TextField fx:id="txtfldPuestoEd" prefHeight="26.0" prefWidth="357.0" text="Puesto actual del trabajador" />
-      <Label id="lblSalarEd" fx:id="lblSalarEd" text="SALARIO" />
-      <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="358.0" text="Salario actual del trabajador" />
+      <VBox layoutX="22.0" layoutY="14.0" prefWidth="344.0">
+         <children>
+            <Text id="txtIdTrab" fx:id="txtIdTrab" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" />
+            <Label text="NOMBRE" />
+            <TextField id="txtfldNomEd" fx:id="txtfldNomEd" prefHeight="26.0" prefWidth="357.0" text="Nombre actual del trabajador" />
+            <Label id="lblPuestoEd" text="PUESTO" />
+            <TextField fx:id="txtfldPuestoEd" prefHeight="26.0" prefWidth="357.0" text="Puesto actual del trabajador" />
+            <Label id="lblSalarEd" text="SALARIO" />
+            <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="369.0" text="Salario actual del trabajador" />
+         </children>
+      </VBox>
+      <HBox layoutX="121.0" layoutY="183.0">
+         <children>
+            <Button fx:id="BtnModificar" mnemonicParsing="false" text="Modificar">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="75.0" />
+               </HBox.margin></Button>
+            <Button fx:id="BtnCancelar" mnemonicParsing="false" text="Cancelar">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children></HBox>
    </children>
-</VBox>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="50.0" top="30.0" />
+   </padding>
+</AnchorPane>

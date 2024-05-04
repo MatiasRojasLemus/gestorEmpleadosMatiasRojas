@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox id="VBoxInsert" fx:id="VBoxInsert" fillWidth="false" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CInserccion">
+<VBox id="VBoxInsert" fx:id="VBoxInsert" fillWidth="false" prefHeight="325.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CInserccion">
    <children>
-      <Text id="txtTitApp" fx:id="txtTitApp" fill="#666666" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de Empleados" textAlignment="CENTER" wrappingWidth="560.0">
+      <Text fill="#666666" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de Empleados" textAlignment="CENTER" wrappingWidth="560.0">
          <font>
             <Font size="30.0" />
          </font>
@@ -16,14 +16,14 @@
          </VBox.margin>
       </Text>
 
-      <TabPane id="TabP" fx:id="TabP" prefHeight="35.0" prefWidth="562.0" tabClosingPolicy="UNAVAILABLE">
-         <Tab id="tabNE" fx:id="tabNE" text="Nuevo Empleado" />
-         <Tab id="tabCon" fx:id="tabCon" text="Consultar" />
+      <TabPane fx:id="TabP" prefHeight="35.0" prefWidth="562.0" tabClosingPolicy="UNAVAILABLE">
+         <Tab id="NVBold" fx:id="tabNE" style="-fx-font-weight: bold;" text="Nuevo Empleado" />
+         <Tab fx:id="tabCon" text="Consultar" />
       </TabPane>
 
-      <Label id="lblNom" fx:id="lblNom" prefHeight="18.0" prefWidth="156.0" text="Nombre" />
+      <Label fx:id="lblNom" prefHeight="18.0" prefWidth="156.0" text="Nombre" />
 
-      <TextField id="txtFldNom" fx:id="txtFldNom" prefHeight="25.0" prefWidth="150.0">
+      <TextField fx:id="txtFldNom" prefHeight="25.0" prefWidth="150.0">
          <VBox.margin>
             <Insets bottom="5.0" />
          </VBox.margin>
@@ -31,21 +31,21 @@
 
       <Label id="lblPuesto" fx:id="lblPuesto" text="Puesto" />
 
-      <ComboBox id="CBPuesto" fx:id="CBPuesto" prefWidth="150.0" visibleRowCount="6">
+      <ComboBox fx:id="CBPuesto" prefWidth="150.0" visibleRowCount="6">
          <VBox.margin>
             <Insets bottom="5.0" />
          </VBox.margin>
       </ComboBox>
 
-      <Label id="lblSalario" fx:id="lblSalario" text="Salario" />
+      <Label fx:id="lblSalario" text="Salario" />
 
-      <TextField id="txtFldSalario" fx:id="txtFldSalario" prefWidth="150.0">
+      <TextField fx:id="txtFldSalario" prefWidth="150.0">
          <VBox.margin>
             <Insets bottom="20.0" />
          </VBox.margin>
       </TextField>
 
-      <Button id="btnInsert" fx:id="btnInsert" mnemonicParsing="false" text="Insertar">
+      <Button fx:id="btnInsert" mnemonicParsing="false" text="Insertar">
          <VBox.margin>
             <Insets bottom="15.0" />
          </VBox.margin>
