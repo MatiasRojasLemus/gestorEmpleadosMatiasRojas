@@ -5,36 +5,37 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestorempleadosmatiasrojas.Controlador.CEdicion">
-   <children>
-      <VBox layoutX="22.0" layoutY="14.0" prefWidth="344.0">
-         <children>
-            <Text id="txtIdTrab" fx:id="txtIdTrab" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador" />
-            <Label text="NOMBRE" />
-            <TextField id="txtfldNomEd" fx:id="txtfldNomEd" prefHeight="26.0" prefWidth="357.0" text="Nombre actual del trabajador" />
-            <Label id="lblPuestoEd" text="PUESTO" />
-            <TextField fx:id="txtfldPuestoEd" prefHeight="26.0" prefWidth="357.0" text="Puesto actual del trabajador" />
-            <Label id="lblSalarEd" text="SALARIO" />
-            <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="369.0" text="Salario actual del trabajador" />
-         </children>
-      </VBox>
-      <HBox layoutX="121.0" layoutY="183.0">
-         <children>
-            <Button fx:id="BtnModificar" mnemonicParsing="false" text="Modificar">
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-               <HBox.margin>
-                  <Insets right="75.0" />
-               </HBox.margin></Button>
-            <Button fx:id="BtnCancelar" mnemonicParsing="false" text="Cancelar">
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-            </Button>
-         </children></HBox>
-   </children>
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controladores.CEdicion">
    <padding>
-      <Insets bottom="30.0" left="30.0" right="50.0" top="30.0" />
+      <Insets bottom="30.0" left="30.0" right="50.0" top="30.0"/>
    </padding>
+   <VBox layoutX="22.0" layoutY="14.0" prefWidth="344.0">
+      <Text id="txtIdTrab" fx:id="txtIdTrab" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Trabajador"/>
+      <Label text="NOMBRE"/>
+      <TextField id="txtfldNomEd" fx:id="txtfldNomEd" prefHeight="26.0" prefWidth="357.0"
+                 text="Nombre actual del trabajador"/>
+      <Label id="lblPuestoEd" text="PUESTO"/>
+      <TextField fx:id="txtfldPuestoEd" prefHeight="26.0" prefWidth="357.0" text="Puesto actual del trabajador"/>
+      <Label id="lblSalarEd" text="SALARIO"/>
+      <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="369.0"
+                 text="Salario actual del trabajador"/>
+   </VBox>
+   <HBox layoutX="121.0" layoutY="183.0">
+      <children>
+         <Button fx:id="BtnModificar" mnemonicParsing="false" text="Modificar">
+            <opaqueInsets>
+               <Insets/>
+            </opaqueInsets>
+            <HBox.margin>
+               <Insets right="75.0"/>
+            </HBox.margin>
+         </Button>
+         <Button fx:id="BtnCancelar" mnemonicParsing="false" text="Cancelar">
+            <opaqueInsets>
+               <Insets/>
+            </opaqueInsets>
+         </Button>
+      </children>
+   </HBox>
 </AnchorPane>

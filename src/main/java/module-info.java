@@ -14,10 +14,10 @@ module org.example.gestorempleadosmatiasrojas {
 
     opens org.example.gestorempleadosmatiasrojas to javafx.fxml;
     exports org.example.gestorempleadosmatiasrojas;
-    exports org.example.gestorempleadosmatiasrojas.Controlador;
-    opens org.example.gestorempleadosmatiasrojas.Controlador to javafx.fxml;
-    exports org.example.gestorempleadosmatiasrojas.Modelo;
-    opens org.example.gestorempleadosmatiasrojas.Modelo to javafx.fxml;
-    exports org.example.gestorempleadosmatiasrojas.Modulo;
-    opens org.example.gestorempleadosmatiasrojas.Modulo to javafx.fxml;
+    exports Controladores;
+    opens Controladores to javafx.fxml;
+    exports Modelo;
+    opens Modelo to javafx.fxml;
+    exports Modulo;
+    opens Modulo to javafx.fxml;
 }
