@@ -13,7 +13,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class CInserccion  {
+public class CInsercion {
     @FXML
     private VBox VBoxInsert;
     @FXML
@@ -37,7 +37,7 @@ public class CInserccion  {
     @FXML
     private Button btnInsert;
 
-    public CInserccion() {
+    public CInsercion() {
 
     }
 
