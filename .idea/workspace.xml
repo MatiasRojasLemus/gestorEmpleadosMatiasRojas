@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Importacion del Driver JDBC al proyecto. Reestructuracion de todas las carpetas y ficheros del proyecto. Clase CConsulta: correcion de métodos datosTrabajadoresEnBD() y recogerDatosFicheroTrabajadores(). Eliminacion de atributos innecesarios en las etiquetas de los ficheros fxml.">
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CConsulta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,7 @@
       <workItem from="1714352212280" duration="3102000" />
       <workItem from="1714390167799" duration="625000" />
       <workItem from="1714829986872" duration="6640000" />
-      <workItem from="1714866274878" duration="22218000" />
+      <workItem from="1714866274878" duration="22547000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714933101913</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion">
+      <option name="closed" value="true" />
+      <created>1714942999046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714942999046</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +216,8 @@
     <MESSAGE value="Implementacion de la Clase Main para inicicializar la Aplicación. Reestructuracion de los ficheros PInserccion.fxml, PConsulta.fxml y PEdicion.fxml" />
     <MESSAGE value="CInserccion: metodo abrirPestañaConsultas(). Nueva Clase ConexionBBDD. CConsulta: Constructor y nuevos métodos rellenarTabla(), datosTrabajadoresEnBD() y recogerDatosTrabajadores()" />
     <MESSAGE value="Importacion del Driver JDBC al proyecto. Reestructuracion de todas las carpetas y ficheros del proyecto. Clase CConsulta: correcion de métodos datosTrabajadoresEnBD() y recogerDatosFicheroTrabajadores(). Eliminacion de atributos innecesarios en las etiquetas de los ficheros fxml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Importacion del Driver JDBC al proyecto. Reestructuracion de todas las carpetas y ficheros del proyecto. Clase CConsulta: correcion de métodos datosTrabajadoresEnBD() y recogerDatosFicheroTrabajadores(). Eliminacion de atributos innecesarios en las etiquetas de los ficheros fxml." />
+    <MESSAGE value="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion" />
+    <option name="LAST_COMMIT_MESSAGE" value="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
