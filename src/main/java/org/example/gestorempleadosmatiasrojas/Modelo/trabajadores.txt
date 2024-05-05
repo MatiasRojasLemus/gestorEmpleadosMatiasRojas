@@ -3,4 +3,3 @@ Manuel;Scada Manager;30000;
 Amaia;Product Owner;33000
 Monica;Junior Programmer;23500
 Raquel;Sales Manager;34000
-Ion;Analyst Manager;31000

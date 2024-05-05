@@ -1,14 +1,15 @@
 package org.example.gestorempleadosmatiasrojas.Modelo;
 
+import java.sql.Date;
 import java.time.LocalDate;
 
 public class Trabajador {
     private String nombre;
     private String puesto;
     private int salario;
-    private LocalDate fechaAlta;
+    private Date fechaAlta;
 
-    public Trabajador(String nombre, String puesto, int salario, LocalDate fechaAlta) {
+    public Trabajador(String nombre, String puesto, int salario, Date fechaAlta) {
         this.nombre = nombre;
         this.puesto = puesto;
         this.salario = salario;
@@ -32,10 +33,10 @@ public class Trabajador {
     public void setSalario(int salario) {
         this.salario = salario;
     }
-    public LocalDate getFechaAlta() {
+    public Date getFechaAlta() {
         return fechaAlta;
     }
-    public void setFechaAlta(LocalDate fechaAlta) {
+    public void setFechaAlta(Date fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
 }
