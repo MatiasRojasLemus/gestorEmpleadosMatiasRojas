@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Main: Definicion inicio aplicacion." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +113,7 @@
       <workItem from="1714352212280" duration="3102000" />
       <workItem from="1714390167799" duration="625000" />
       <workItem from="1714829986872" duration="6640000" />
-      <workItem from="1714866274878" duration="22547000" />
+      <workItem from="1714866274878" duration="22861000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -198,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714942999046</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Main: Definicion inicio aplicacion.">
+      <option name="closed" value="true" />
+      <created>1714943211415</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714943211415</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +222,8 @@
     <MESSAGE value="CInserccion: metodo abrirPestañaConsultas(). Nueva Clase ConexionBBDD. CConsulta: Constructor y nuevos métodos rellenarTabla(), datosTrabajadoresEnBD() y recogerDatosTrabajadores()" />
     <MESSAGE value="Importacion del Driver JDBC al proyecto. Reestructuracion de todas las carpetas y ficheros del proyecto. Clase CConsulta: correcion de métodos datosTrabajadoresEnBD() y recogerDatosFicheroTrabajadores(). Eliminacion de atributos innecesarios en las etiquetas de los ficheros fxml." />
     <MESSAGE value="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion" />
-    <option name="LAST_COMMIT_MESSAGE" value="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion" />
+    <MESSAGE value="Main: Definicion inicio aplicacion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Main: Definicion inicio aplicacion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
