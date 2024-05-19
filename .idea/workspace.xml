@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsultas.java" afterDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,34 +56,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/resources/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas",
+    "last_opened_file_path": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/resources/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\34654\gestorEmpleadosMatiasRojas\src\main\resources" />
@@ -140,7 +142,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="949000" />
+      <workItem from="1716143951885" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -254,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716144343502</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java.">
+      <option name="closed" value="true" />
+      <created>1716145106826</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716145106826</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +298,8 @@
     <MESSAGE value="Clase Trabajador: Eliminación de setters innecesarios." />
     <MESSAGE value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
     <MESSAGE value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
+    <MESSAGE value="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
