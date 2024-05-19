@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Clase Trabajador: Eliminación de setters innecesarios.">
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccionConsultas.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercion.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +39,14 @@
     &quot;accountId&quot;: &quot;32abe8dc-98f4-4ad8-9394-cbfd072be861&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercion.fxml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -52,26 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas",
-    "last_opened_file_path": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/resources/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/resources/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\34654\gestorEmpleadosMatiasRojas\src\main\resources" />
@@ -115,7 +129,22 @@
       <workItem from="1714352212280" duration="3102000" />
       <workItem from="1714390167799" duration="625000" />
       <workItem from="1714829986872" duration="6640000" />
-      <workItem from="1714866274878" duration="23851000" />
+      <workItem from="1714866274878" duration="25022000" />
+      <workItem from="1716036719532" duration="753000" />
+      <workItem from="1716037491619" duration="59000" />
+      <workItem from="1716037566208" duration="122000" />
+      <workItem from="1716037703016" duration="698000" />
+      <workItem from="1716041564919" duration="250000" />
+      <workItem from="1716041945103" duration="199000" />
+      <workItem from="1716042289183" duration="839000" />
+      <workItem from="1716043341834" duration="98000" />
+      <workItem from="1716043451762" duration="433000" />
+      <workItem from="1716043892667" duration="395000" />
+      <workItem from="1716044300095" duration="1177000" />
+      <workItem from="1716140989269" duration="277000" />
+      <workItem from="1716141275978" duration="130000" />
+      <workItem from="1716141575119" duration="143000" />
+      <workItem from="1716143951885" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -213,11 +242,30 @@
       <option name="project" value="LOCAL" />
       <updated>1714943730017</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)">
+      <option name="closed" value="true" />
+      <created>1714944820453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714944820453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inserccion Ficheros Proyecto (+ Clase Trabajador)." />
@@ -234,7 +282,8 @@
     <MESSAGE value="CConsulta: Multiples metodos creados: initialize(), cambioSeleccion(), reconocerTrabajador(), irAPantallaEdicion" />
     <MESSAGE value="Main: Definicion inicio aplicacion." />
     <MESSAGE value="Clase Trabajador: Eliminación de setters innecesarios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase Trabajador: Eliminación de setters innecesarios." />
+    <MESSAGE value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,5 +294,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

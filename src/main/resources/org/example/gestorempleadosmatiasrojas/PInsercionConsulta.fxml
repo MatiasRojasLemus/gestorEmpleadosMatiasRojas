@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox id="VBoxInsert" fx:id="VBoxInsert" fillWidth="false" prefHeight="425.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.CInsercion">
+
+   <padding>
+      <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
+   </padding>
+   <Text fill="#666666" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestor de Empleados" textAlignment="CENTER" wrappingWidth="560.0">
+      <font>
+         <Font size="30.0" />
+      </font>
+      <VBox.margin>
+         <Insets bottom="15.0" />
+      </VBox.margin>
+   </Text>
+
+   <TabPane prefHeight="398.0" prefWidth="624.0" tabClosingPolicy="UNAVAILABLE">
+      <Tab id="NVBold" fx:id="tabNE" text="Nuevo Empleado">
+         <content>
+            <VBox prefHeight="268.0" prefWidth="562.0">
+               <children>
+               
+                                 <Label fx:id="lblNom" prefHeight="18.0" prefWidth="156.0" text="Nombre" />
+               
+                                 <TextField fx:id="txtFldNom" prefHeight="24.0" prefWidth="562.0">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </TextField>
+               
+                                 <Label id="lblPuesto" fx:id="lblPuesto" text="Puesto" />
+               
+                                 <ComboBox fx:id="CBPuesto" prefWidth="150.0" visibleRowCount="6">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ComboBox>
+               
+                                 <Label fx:id="lblSalario" text="Salario" />
+               
+                                 <TextField fx:id="txtFldSalario" prefWidth="150.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+               
+                                 <Button fx:id="btnInsert" mnemonicParsing="false" text="Insertar">
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </content></Tab>
+      <Tab fx:id="tabCon" onSelectionChanged="#abrirPestanaConsultas" text="Consultar">
+         <content>
+            <AnchorPane prefHeight="262.0" prefWidth="570.0">
+               <children>
+                  <ListView fx:id="listV" editable="true" fixedCellSize="0.0" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+                  <Button fx:id="btnRefresc" layoutX="82.0" layoutY="226.0" mnemonicParsing="false" text="Refrescar" />
+                  <HBox layoutX="230.0" layoutY="226.0">
+                     <children>
+                        <Button fx:id="btnEdit" mnemonicParsing="false" onAction="#irAPantallaEdicion" text="Editar">
+                           <HBox.margin>
+                              <Insets right="75.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnElim" layoutX="200.0" mnemonicParsing="false" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
+                     </children>
+                  </HBox>
+                  <VBox layoutX="230.0" layoutY="14.0" prefHeight="199.0" prefWidth="185.0">
+                     <children>
+                        <Text fx:id="txtIdT" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.68359375" x="250.0" y="125.0">
+                           <VBox.margin>
+                              <Insets bottom="15.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text fx:id="txtNT" strokeType="OUTSIDE" strokeWidth="0.0" x="250.0" y="150.0">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text fx:id="txtPuesto" strokeType="OUTSIDE" strokeWidth="0.0" x="250.0" y="175.0">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text fx:id="txtSalar" strokeType="OUTSIDE" strokeWidth="0.0" x="250.0" y="200.0">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text fx:id="txtFA" strokeType="OUTSIDE" strokeWidth="0.0" x="250.0" y="225.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content></Tab>
+   </TabPane>
+   <opaqueInsets>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </opaqueInsets>
+
+</VBox>
