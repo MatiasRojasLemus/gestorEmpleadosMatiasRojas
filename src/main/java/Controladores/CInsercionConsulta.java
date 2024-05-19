@@ -1,19 +1,12 @@
 package Controladores;
 
+import Modelo.Trabajador;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.text.Text;
-import Modelo.Trabajador;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.Date;
@@ -23,12 +16,39 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
+
+import javafx.scene.control.*;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
+
 import static Modulo.ConexionBBDD.conectar;
 
-public class CConsulta implements Initializable {
+public class CInsercionConsulta {
+    @FXML
+    private VBox VBoxInsert;
+    @FXML
+    private Text txtTitApp;
+    @FXML
+    private Tab tabNE;
+    @FXML
+    private Tab tabCon;
+    @FXML
+    private Label lblNom;
+    @FXML
+    private TextField txtFldNom;
+    @FXML
+    private Label lblPuesto;
+    @FXML
+    private ComboBox CBPuesto;
+    @FXML
+    private Label lblSalario;
+    @FXML
+    private TextField txtFldSalario;
+    @FXML
+    private Button btnInsert;
 
     @FXML
-    public ListView<Trabajador>listV;
+    public ListView<Trabajador> listV;
     @FXML
     private Button btnEdit;
     @FXML
@@ -48,7 +68,7 @@ public class CConsulta implements Initializable {
     @FXML
     private Label selection;
 
-    public CConsulta() throws SQLException, IOException {
+    public CInsercionConsulta() throws SQLException, IOException {
         btnEdit = new Button("Editar");
         btnRefresc = new Button("Refrescar");
         btnElim = new Button("Eliminar");
@@ -60,8 +80,21 @@ public class CConsulta implements Initializable {
         this.datosTrabajadoresEnBD(); //Insertar la informacion de los trabajadores en la BD
     }
 
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        try {
+            ArrayList<Trabajador> trabajadores = recogerDatosFicheroTrabajadores();
+            Trabajador[] items = new Trabajador[trabajadores.size()];
+            for (int i = 0; i < trabajadores.size(); i++) {
+                items[i] = trabajadores.get(i);
+            }
+            listV.getItems().setAll(items);
 
+            listV.getSelectionModel().selectedItemProperty().addListener(this::cambioSeleccion);
 
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
     private void datosTrabajadoresEnBD() throws IOException, SQLException {
@@ -92,9 +125,9 @@ public class CConsulta implements Initializable {
 
         while ((cadena = lectorAux.readLine()) != null) {
             String[] bloques = cadena.split("\n");
-            for (String datosTrabajador : bloques){
+            for (String datosTrabajador : bloques) {
                 String[] listaDatosTrabajador = datosTrabajador.split(";");
-                Trabajador trabajador = new Trabajador(listaDatosTrabajador[0],listaDatosTrabajador[1],Integer.parseInt(listaDatosTrabajador[2]), Date.valueOf(LocalDate.now()));
+                Trabajador trabajador = new Trabajador(listaDatosTrabajador[0], listaDatosTrabajador[1], Integer.parseInt(listaDatosTrabajador[2]), Date.valueOf(LocalDate.now()));
                 trabajadoresEncontrados.add(trabajador);
             }
         }
@@ -102,26 +135,10 @@ public class CConsulta implements Initializable {
     }
 
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle){
-        try {
-            ArrayList<Trabajador> trabajadores = recogerDatosFicheroTrabajadores();
-            Trabajador[] items = new Trabajador[trabajadores.size()];
-            for (int i = 0; i < trabajadores.size(); i++) {
-                items[i] = trabajadores.get(i);
-            }
-            listV.getItems().setAll(items);
-
-            listV.getSelectionModel().selectedItemProperty().addListener(this::cambioSeleccion);
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
     private void cambioSeleccion(ObservableValue<? extends Trabajador> Observable, Trabajador oldValue, Trabajador newValue) {
         ObservableList<Trabajador> selectedItems = listV.getSelectionModel().getSelectedItems();
 
-        Trabajador getSelectedItem = (selectedItems.isEmpty())? (Trabajador) selectedItems:selectedItems.get(0);
+        Trabajador getSelectedItem = (selectedItems.isEmpty()) ? (Trabajador) selectedItems : selectedItems.get(0);
 
 
         ArrayList<Trabajador> trabajadores;
@@ -132,10 +149,10 @@ public class CConsulta implements Initializable {
             throw new RuntimeException(e);
         }
 
-        int indiceTrabajadorSeleccionado = this.reconocerTrabajador(getSelectedItem,trabajadores);
+        int indiceTrabajadorSeleccionado = this.reconocerTrabajador(getSelectedItem, trabajadores);
         Trabajador trabajadorSeleccionado = trabajadores.get(indiceTrabajadorSeleccionado);
 
-        txtIdT.setText(String.valueOf(indiceTrabajadorSeleccionado+1));
+        txtIdT.setText(String.valueOf(indiceTrabajadorSeleccionado + 1));
         txtNT.setText(trabajadorSeleccionado.getNombre());
         txtPuesto.setText(trabajadorSeleccionado.getPuesto());
         txtSalar.setText(String.valueOf(trabajadorSeleccionado.getSalario()));
@@ -143,7 +160,7 @@ public class CConsulta implements Initializable {
 
     }
 
-    private int reconocerTrabajador(Trabajador trabajadorSeleccionado, ArrayList<Trabajador> trabajadores){
+    private int reconocerTrabajador(Trabajador trabajadorSeleccionado, ArrayList<Trabajador> trabajadores) {
         for (int i = 0; i < trabajadores.size(); i++) {
             if (trabajadorSeleccionado.equals(trabajadores.get(i))) {
                 return i;
@@ -153,6 +170,7 @@ public class CConsulta implements Initializable {
     }
 
     public void irAPantallaEdicion(ActionEvent actionEvent) {
+
 
     }
 }

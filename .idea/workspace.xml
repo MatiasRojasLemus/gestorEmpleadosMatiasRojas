@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInserccionConsultas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PConsulta.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercion.fxml" beforeDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsultas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="189000" />
+      <workItem from="1716143951885" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -250,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714944820453</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml.">
+      <option name="closed" value="true" />
+      <created>1716144343501</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716144343502</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +287,8 @@
     <MESSAGE value="Main: Definicion inicio aplicacion." />
     <MESSAGE value="Clase Trabajador: Eliminación de setters innecesarios." />
     <MESSAGE value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
+    <MESSAGE value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
