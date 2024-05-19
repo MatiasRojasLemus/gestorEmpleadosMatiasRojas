@@ -31,28 +31,13 @@ import static Modulo.ConexionBBDD.conectar;
 public class CInsercionConsulta {
 
     /** Atributos de la pestaña de Inserción **/
-    @FXML
-    private VBox VBoxInsert;
-    @FXML
-    private Text txtTitApp;
-    @FXML
-    private Tab tabNE;
-    @FXML
-    private Tab tabCon;
-    @FXML
-    private Label lblNom;
+
     @FXML
     private TextField txtFldNom;
     @FXML
-    private Label lblPuesto;
-    @FXML
     private ComboBox CBPuesto;
     @FXML
-    private Label lblSalario;
-    @FXML
     private TextField txtFldSalario;
-    @FXML
-    private Button btnInsert;
 
 
     /** Atributos de la pestaña de Consulta **/
@@ -74,8 +59,6 @@ public class CInsercionConsulta {
     private Text txtSalar;
     @FXML
     private Text txtFA;
-    @FXML
-    private Label selection;
 
     public CInsercionConsulta() throws SQLException, IOException {
         /** Atributos de la pestaña de Inserción **/
@@ -98,6 +81,7 @@ public class CInsercionConsulta {
     public void initialize(URL url, ResourceBundle resourceBundle) throws SQLException, IOException {
         //Primero insertamos la informacion de los trabajadores en la BD
         this.datosTrabajadoresEnBD();
+
         try {
             ArrayList<Trabajador> trabajadores = recogerDatosFicheroTrabajadores();
             Trabajador[] items = new Trabajador[trabajadores.size()];
@@ -152,7 +136,7 @@ public class CInsercionConsulta {
     }
 
 
-
+    /** ___________________________________________**/
 
 
     private void cambioSeleccion(ObservableValue<? extends Trabajador> Observable, Trabajador oldValue, Trabajador newValue) {
@@ -209,6 +193,10 @@ public class CInsercionConsulta {
     }
 
     public void eliminarEmpleado(ActionEvent actionEvent) {
+
+    }
+
+    public void insertarEmpleado(ActionEvent actionEvent) {
 
     }
 }

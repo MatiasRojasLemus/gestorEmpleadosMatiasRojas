@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CEdicion.java: Corrección rapida del método cancelarModificacion().">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="bdEmpleados.sql: Modificación Tabla de Empleados. CInsercionConsulta.java, ConexionBBDD.java y PInsercionConsulta.fxml: Cambios muy leves de código.">
       <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modulo/ConexionBBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modulo/ConexionBBDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BBDD/bdEmpleados.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BBDD/bdEmpleados.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +141,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="7529000" />
+      <workItem from="1716143951885" duration="7871000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -306,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716149708970</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="bdEmpleados.sql: Modificación Tabla de Empleados. CInsercionConsulta.java, ConexionBBDD.java y PInsercionConsulta.fxml: Cambios muy leves de código.">
+      <option name="closed" value="true" />
+      <created>1716151655732</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716151655732</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +351,8 @@
     <MESSAGE value="CEdicion.java: Construcción inicial de la Clase (Funcionamiento de sus respectivos botones)." />
     <MESSAGE value="CEdicion.java: Métodos para mostrar mensajes de notificaciones." />
     <MESSAGE value="CEdicion.java: Corrección rapida del método cancelarModificacion()." />
-    <option name="LAST_COMMIT_MESSAGE" value="CEdicion.java: Corrección rapida del método cancelarModificacion()." />
+    <MESSAGE value="bdEmpleados.sql: Modificación Tabla de Empleados. CInsercionConsulta.java, ConexionBBDD.java y PInsercionConsulta.fxml: Cambios muy leves de código." />
+    <option name="LAST_COMMIT_MESSAGE" value="bdEmpleados.sql: Modificación Tabla de Empleados. CInsercionConsulta.java, ConexionBBDD.java y PInsercionConsulta.fxml: Cambios muy leves de código." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
