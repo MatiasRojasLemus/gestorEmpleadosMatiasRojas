@@ -41,9 +41,6 @@ public class CEdicion {
     }
 
     public void cancelarModificacion(ActionEvent actionEvent) throws IOException {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setContentText("");
-        alert.showAndWait();
         mensajeModificacionCancelada();
         volverPantallaConsulta(actionEvent);
     }
