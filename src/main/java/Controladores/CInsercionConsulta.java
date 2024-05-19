@@ -29,6 +29,8 @@ import org.example.gestorempleadosmatiasrojas.Main;
 import static Modulo.ConexionBBDD.conectar;
 
 public class CInsercionConsulta {
+
+    /** Atributos de la pestaña de Inserción **/
     @FXML
     private VBox VBoxInsert;
     @FXML
@@ -52,6 +54,8 @@ public class CInsercionConsulta {
     @FXML
     private Button btnInsert;
 
+
+    /** Atributos de la pestaña de Consulta **/
     @FXML
     public ListView<Trabajador> listV;
     @FXML
@@ -74,6 +78,12 @@ public class CInsercionConsulta {
     private Label selection;
 
     public CInsercionConsulta() throws SQLException, IOException {
+        /** Atributos de la pestaña de Inserción **/
+
+
+
+
+        /** Atributos de la pestaña de Consulta **/
         btnEdit = new Button("Editar");
         btnRefresc = new Button("Refrescar");
         btnElim = new Button("Eliminar");
@@ -82,10 +92,12 @@ public class CInsercionConsulta {
         txtPuesto = new Text();
         txtSalar = new Text();
         txtFA = new Text();
-        this.datosTrabajadoresEnBD(); //Insertar la informacion de los trabajadores en la BD
     }
 
-    public void initialize(URL url, ResourceBundle resourceBundle) {
+
+    public void initialize(URL url, ResourceBundle resourceBundle) throws SQLException, IOException {
+        //Primero insertamos la informacion de los trabajadores en la BD
+        this.datosTrabajadoresEnBD();
         try {
             ArrayList<Trabajador> trabajadores = recogerDatosFicheroTrabajadores();
             Trabajador[] items = new Trabajador[trabajadores.size()];
@@ -100,7 +112,6 @@ public class CInsercionConsulta {
             throw new RuntimeException(e);
         }
     }
-
 
     private void datosTrabajadoresEnBD() throws IOException, SQLException {
         Connection conexion = null;
@@ -120,6 +131,7 @@ public class CInsercionConsulta {
 
     }
 
+
     private ArrayList<Trabajador> recogerDatosFicheroTrabajadores() throws IOException {
         ArrayList<Trabajador> trabajadoresEncontrados = new ArrayList<>();
 
@@ -138,6 +150,9 @@ public class CInsercionConsulta {
         }
         return trabajadoresEncontrados;
     }
+
+
+
 
 
     private void cambioSeleccion(ObservableValue<? extends Trabajador> Observable, Trabajador oldValue, Trabajador newValue) {
@@ -174,6 +189,8 @@ public class CInsercionConsulta {
         return 2;
     }
 
+
+
     @FXML
     public void irAPantallaEdicion(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader;
@@ -189,5 +206,9 @@ public class CInsercionConsulta {
 
         currentStage.close();
         stage.show();
+    }
+
+    public void eliminarEmpleado(ActionEvent actionEvent) {
+
     }
 }

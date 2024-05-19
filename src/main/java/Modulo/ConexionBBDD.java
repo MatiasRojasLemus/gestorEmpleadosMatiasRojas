@@ -11,11 +11,11 @@ public class ConexionBBDD {
     public static Connection conectar(Connection connection){
         try {
             connection = DriverManager.getConnection(url, username, localPassword);
-            System.out.println("Conexion establecida");
+            System.out.println("Conexion establecida correctamente");
 
 
         } catch (SQLException e) {
-            throw new IllegalStateException("No se ha podido establecer conexion", e);
+            throw new IllegalStateException("No se ha podido establecer conexion: ", e);
         }
 
         return connection;
@@ -28,7 +28,7 @@ public class ConexionBBDD {
             }
 
         }catch (SQLException e){
-            throw new IllegalStateException("No se ha podido cerrar la conexion", e);
+            throw new IllegalStateException("No se ha podido cerrar la conexion: ", e);
         }
         return connection;
     }

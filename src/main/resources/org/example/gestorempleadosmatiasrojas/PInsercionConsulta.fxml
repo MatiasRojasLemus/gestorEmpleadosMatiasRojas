@@ -70,7 +70,7 @@
                               <Insets right="75.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="btnElim" layoutX="200.0" mnemonicParsing="false" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
+                        <Button fx:id="btnElim" layoutX="200.0" mnemonicParsing="false" onAction="#eliminarEmpleado" style="-fx-font-weight: bold;" text="Eliminar" textFill="RED" />
                      </children>
                   </HBox>
                   <VBox layoutX="230.0" layoutY="14.0" prefHeight="199.0" prefWidth="185.0">

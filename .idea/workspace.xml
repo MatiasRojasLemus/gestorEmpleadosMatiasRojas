@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CEdicion.java: Métodos para mostrar mensajes de notificaciones.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CEdicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CEdicion.java" afterDir="false" />
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CEdicion.java: Corrección rapida del método cancelarModificacion().">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modulo/ConexionBBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modulo/ConexionBBDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BBDD/bdEmpleados.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BBDD/bdEmpleados.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +144,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="5624000" />
+      <workItem from="1716143951885" duration="7529000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -294,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716149517733</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CEdicion.java: Corrección rapida del método cancelarModificacion().">
+      <option name="closed" value="true" />
+      <created>1716149708970</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716149708970</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +345,8 @@
     <MESSAGE value="CInsercionConsulta.java: Acceso a la Pantalla de Edición (método irAPantallaEdicion())." />
     <MESSAGE value="CEdicion.java: Construcción inicial de la Clase (Funcionamiento de sus respectivos botones)." />
     <MESSAGE value="CEdicion.java: Métodos para mostrar mensajes de notificaciones." />
-    <option name="LAST_COMMIT_MESSAGE" value="CEdicion.java: Métodos para mostrar mensajes de notificaciones." />
+    <MESSAGE value="CEdicion.java: Corrección rapida del método cancelarModificacion()." />
+    <option name="LAST_COMMIT_MESSAGE" value="CEdicion.java: Corrección rapida del método cancelarModificacion()." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
