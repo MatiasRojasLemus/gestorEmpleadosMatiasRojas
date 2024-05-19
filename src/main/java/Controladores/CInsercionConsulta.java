@@ -17,9 +17,14 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import org.example.gestorempleadosmatiasrojas.Main;
 
 import static Modulo.ConexionBBDD.conectar;
 
@@ -169,8 +174,20 @@ public class CInsercionConsulta {
         return 2;
     }
 
-    public void irAPantallaEdicion(ActionEvent actionEvent) {
+    @FXML
+    public void irAPantallaEdicion(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader;
+        Scene scene;
+        Node node = (Node) actionEvent.getSource();
+        Stage currentStage = (Stage) node.getScene().getWindow();
+        Stage stage = new Stage();
 
+        fxmlLoader = new FXMLLoader(Main.class.getResource("PEdicion.fxml"));
+        scene = new Scene(fxmlLoader.load(), 450, 270);
+        stage.setTitle("Editar");
+        stage.setScene(scene);
 
+        currentStage.close();
+        stage.show();
     }
 }

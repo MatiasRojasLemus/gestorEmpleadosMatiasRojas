@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java.">
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="PInsercionConsulta.fxml y Main.java: Correcciones de Código.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestorempleadosmatiasrojas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PInsercionConsulta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PEdicion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PEdicion.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/java/org/example/gestorempleadosmatiasrojas",
-    "last_opened_file_path": "C:/Users/34654/gestorEmpleadosMatiasRojas/src/main/resources/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
+    "last_opened_file_path": "C:/Users/34654/PanaderiaDAM1B",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +142,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="1876000" />
+      <workItem from="1716143951885" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -264,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716145106826</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="PInsercionConsulta.fxml y Main.java: Correcciones de Código.">
+      <option name="closed" value="true" />
+      <created>1716145890974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716145890974</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +307,8 @@
     <MESSAGE value="Corrección rapida de los nombres de ficheros (CInserccion.java -&gt; CInsercion.java, PInserccion.java -&gt; PInsercion.java)" />
     <MESSAGE value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
     <MESSAGE value="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java." />
+    <MESSAGE value="PInsercionConsulta.fxml y Main.java: Correcciones de Código." />
+    <option name="LAST_COMMIT_MESSAGE" value="PInsercionConsulta.fxml y Main.java: Correcciones de Código." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
