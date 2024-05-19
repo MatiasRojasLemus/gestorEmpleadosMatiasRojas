@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="PInsercionConsulta.fxml y Main.java: Correcciones de Código.">
+    <list default="true" id="cbb0dc33-2d49-48e3-913b-9f4eb3d3fde4" name="Changes" comment="CInsercionConsulta.java: Acceso a la Pantalla de Edición (método irAPantallaEdicion()).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CInsercionConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controladores/CEdicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controladores/CEdicion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PEdicion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestorempleadosmatiasrojas/PEdicion.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +142,7 @@
       <workItem from="1716140989269" duration="277000" />
       <workItem from="1716141275978" duration="130000" />
       <workItem from="1716141575119" duration="143000" />
-      <workItem from="1716143951885" duration="2744000" />
+      <workItem from="1716143951885" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="Inserccion Ficheros Proyecto (+ Clase Trabajador).">
       <option name="closed" value="true" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716145890974</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="CInsercionConsulta.java: Acceso a la Pantalla de Edición (método irAPantallaEdicion()).">
+      <option name="closed" value="true" />
+      <created>1716146811522</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716146811522</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +316,8 @@
     <MESSAGE value="Eliminación de PConsulta.fxml y de PInsercion.fxml para la creacion de PInsercionConsulta.fxml." />
     <MESSAGE value="Eliminación de CConsulta.java y de CInsercion.java para la creacion de CInsercionConsulta.java." />
     <MESSAGE value="PInsercionConsulta.fxml y Main.java: Correcciones de Código." />
-    <option name="LAST_COMMIT_MESSAGE" value="PInsercionConsulta.fxml y Main.java: Correcciones de Código." />
+    <MESSAGE value="CInsercionConsulta.java: Acceso a la Pantalla de Edición (método irAPantallaEdicion())." />
+    <option name="LAST_COMMIT_MESSAGE" value="CInsercionConsulta.java: Acceso a la Pantalla de Edición (método irAPantallaEdicion())." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

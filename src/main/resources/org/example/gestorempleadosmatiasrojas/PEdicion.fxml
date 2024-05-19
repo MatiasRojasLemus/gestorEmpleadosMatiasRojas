@@ -19,20 +19,18 @@
       <TextField id="txtfldSalarEd" fx:id="txtfldSalarEd" prefHeight="26.0" prefWidth="369.0" text="Salario actual del trabajador" />
    </VBox>
    <HBox layoutX="121.0" layoutY="183.0">
-      <children>
-         <Button fx:id="BtnModificar" mnemonicParsing="false" text="Modificar">
-            <opaqueInsets>
-               <Insets />
-            </opaqueInsets>
-            <HBox.margin>
-               <Insets right="75.0" />
-            </HBox.margin>
-         </Button>
-         <Button fx:id="BtnCancelar" mnemonicParsing="false" text="Cancelar">
-            <opaqueInsets>
-               <Insets />
-            </opaqueInsets>
-         </Button>
-      </children>
+      <Button fx:id="BtnModificar" mnemonicParsing="false" onAction="#confirmarModificacion" text="Modificar">
+         <opaqueInsets>
+            <Insets/>
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets right="75.0"/>
+         </HBox.margin>
+      </Button>
+      <Button fx:id="BtnCancelar" mnemonicParsing="false" onAction="#cancelarModificacion" text="Cancelar">
+         <opaqueInsets>
+            <Insets/>
+         </opaqueInsets>
+      </Button>
    </HBox>
 </AnchorPane>
