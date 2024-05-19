@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
@@ -40,6 +41,10 @@ public class CEdicion {
     }
 
     public void cancelarModificacion(ActionEvent actionEvent) throws IOException {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setContentText("");
+        alert.showAndWait();
+        mensajeModificacionCancelada();
         volverPantallaConsulta(actionEvent);
     }
 
@@ -62,5 +67,26 @@ public class CEdicion {
 
         currentStage.close();
         stage.show();
+    }
+
+
+    /** Metodos para mostrar diversos mensajes dependiendo de como suceda la modificación **/
+
+    public static void mensajeModificacionErronea(){
+        Alert alerta = new Alert(Alert.AlertType.ERROR);
+        alerta.setContentText("Los datos no se han modificado correctamente. Comprueba que los datos estén metidos correctamente.");
+        alerta.showAndWait();
+    }
+
+    public static void mensajeModificacionCancelada(){
+        Alert alerta = new Alert(Alert.AlertType.INFORMATION);
+        alerta.setContentText("El proceso de modificación ha sido cancelada. Volviendo a la pantalla principal.");
+        alerta.showAndWait();
+    }
+
+    public static void mensajeModificacionCorrecta(){
+        Alert alerta = new Alert(Alert.AlertType.CONFIRMATION);
+        alerta.setContentText("El proceso de modificación se ha ejecutado correctamente. Volviendo a la pantalla principal.");
+        alerta.showAndWait();
     }
 }
